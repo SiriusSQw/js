@@ -1,2 +1,15 @@
-console.log('this is test');
-//console.log('some code');
+// 3. Найдите x1 и x2 для квадратного уравнения x^2 + 10x - 24 = 0;  запись вида x^2 - означает x в степени 2
+// выведите промежуточные значения на консоль(например значение дискриминанта); // подсказка...снала высчитайте значение переменной дискриминанта
+var a = 1;
+var b = 10;
+var c = 24;
+var D = null;
+D = b*b-4*a*c;
+x1 =-b+Math.sqrt(b)*b-4*a*c/2*a;
+x2 =-b-Math.sqrt(b)*b-4*a*c/2*a;
+console.log(D>0);
+console.log('x1=',x1);
+console.log('x2=',x2);
+console.log(D===0);
+console.log('D=', D);
+
